@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Touch screen calibration frame -->
+    <path
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M8,14 L8,8 L14,8 M34,8 L40,8 L40,14 M40,34 L40,40 L34,40 M14,40 L8,40 L8,34" />
+    <!-- Concentric 240Hz touch sampling radar waves -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.2"
+        android:pathData="M24,7 A17,17 0 1,0 24,41 A17,17 0 1,0 24,7" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.6"
+        android:pathData="M24,13 A11,11 0 1,0 24,35 A11,11 0 1,0 24,13" />
+    <!-- Touch point aura glow -->
+    <path
+        android:fillColor="#3300E5FF"
+        android:pathData="M24,18 A6,6 0 1,0 24,30 A6,6 0 1,0 24,18" />
+    <!-- Touch indicator & pointer arrow -->
+    <path
+        android:fillColor="#00E5FF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:pathData="M24,14 L27.5,23 L36.5,24 L29.5,29.5 L32,38 L24,33 L16,38 L18.5,29.5 L11.5,24 L20.5,23 Z" />
+    <!-- Center touch point -->
+    <path
+        android:fillColor="#050B17"
+        android:pathData="M24,23 A2,2 0 1,0 24,27 A2,2 0 1,0 24,23" />
+</vector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer hexagon cyber chip frame -->
+    <path
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="1.5"
+        android:pathData="M24,4 L41,14 L41,34 L24,44 L7,34 L7,14 Z" />
+    <!-- Pulse speed rings -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M24,10 A14,14 0 1,0 24,38 A14,14 0 1,0 24,10" />
+    <!-- Zero ms latency badge fill -->
+    <path
+        android:fillColor="#1500E5FF"
+        android:pathData="M24,8 L37,16 L37,32 L24,40 L11,32 L11,16 Z" />
+    <!-- Dynamic Lightning Bolt (Zero Delay / Ultra Speed) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:strokeLineJoin="miter"
+        android:pathData="M26,6 L15,24 L23,24 L19,42 L34,22 L25,22 Z" />
+    <!-- Speed motion trails -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M7,20 L12,20 M5,26 L10,26 M36,20 L42,20 M38,26 L44,26" />
+</vector>

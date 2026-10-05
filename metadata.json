@@ -1,0 +1,6 @@
+{
+  "name": "Caziel",
+  "description": "Painel de otimização para Free Fire com redução de recuo, diminuição de input lag e otimização de touch.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
